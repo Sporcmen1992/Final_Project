@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="registranion_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <h1>Registration form for boxing training</h1>
+    <form id="registration-form">
+        <div id="fullname-div">
+            <label>
+                Full Name:
+                <input required id="full-name" name="fullName" type="text" placeholder="Enter your full name">
+            </label>
+        </div>
+        <div id="email-div">
+            <label>
+                Email:
+                <input required id="email" name="email" type="email" placeholder="Enter your email">
+            </label>
+        </div>
+        <div id="submit-div">
+            <button id="submit" type="submit">Submit</button>
+            <button onclick="window.location.href='main.html';">Back to Main</button>
+        </div> 
+        <h2>Already registed? Nice!!! 🥊 </h2>   
+    </form>
+    <footer>
+        <p>Follow us on:</p>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
